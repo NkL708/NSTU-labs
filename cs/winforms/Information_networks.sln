@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.1.32210.238
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Information_networks", "Information_networks\Information_networks.csproj", "{C17C0EEB-FF88-472F-AE3D-43958A061950}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RGZ", "RGZ\RGZ.csproj", "{93B66848-3FCA-4382-BE4C-2B66113B22A8}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C17C0EEB-FF88-472F-AE3D-43958A061950}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C17C0EEB-FF88-472F-AE3D-43958A061950}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C17C0EEB-FF88-472F-AE3D-43958A061950}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C17C0EEB-FF88-472F-AE3D-43958A061950}.Release|Any CPU.Build.0 = Release|Any CPU
+		{93B66848-3FCA-4382-BE4C-2B66113B22A8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{93B66848-3FCA-4382-BE4C-2B66113B22A8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{93B66848-3FCA-4382-BE4C-2B66113B22A8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{93B66848-3FCA-4382-BE4C-2B66113B22A8}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {13A953B1-5241-45B5-87E6-6842FD8BACC2}
+	EndGlobalSection
+EndGlobal

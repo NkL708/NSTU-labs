@@ -1,0 +1,25 @@
+﻿@model Product
+
+<form method="post">
+    <div class="mt-2">
+        <label asp-for="Id"></label>
+        <input asp-for="Id" disabled class="form-control" />
+    </div>
+    <div class="mt-2">
+        <label asp-for="Count">Количество</label>
+        <input asp-for="Count" disabled class="form-control" />
+    </div>
+    <div class="mt-2">
+        <label asp-for="Name">Название</label>
+        <input asp-for="Name" disabled class="form-control" />
+    </div>
+    <div class="mt-2">
+        <label asp-for="Price">Цена</label>
+        <input asp-for="Price" disabled class="form-control" />
+    </div>
+    <div class="mt-2">
+        <label asp-for="Catagory">Категория</label>
+        <input asp-for="Catagory" disabled class="form-control" />
+    </div>
+    <button type="submit" class="btn btn-danger mt-3">Я точно хочу удалить!</button>
+</form>

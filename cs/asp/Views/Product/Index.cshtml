@@ -1,0 +1,33 @@
+﻿<h1>Содержимое склада:</h1>
+
+<table class="table table-bordered table-striped">
+    <thead>
+        <tr>
+            <th>Id</th>
+            <th>Количество</th>
+            <th>Название</th>
+            <th>Цена (₽)</th>
+            <th>Категория</th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var obj in Database.GetProducts())
+        {
+            <tr>
+                <td>@obj.Id</td>
+                <td>@obj.Count</td>
+                <td>@obj.Name</td>
+                <td>@obj.Price</td>
+                <td>@obj.Catagory</td>
+                <td>
+                    <a asp-controller="Product" asp-action="Update" asp-route-id="@obj.Id" class="btn btn-warning">Изменить</a>
+                    <a asp-controller="Product" asp-action="Delete" asp-route-id="@obj.Id" class="btn btn-danger">Удалить</a>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>
+
+<a asp-controller="Product" asp-action="Create" class="btn btn-primary">Добавить товар</a>
+

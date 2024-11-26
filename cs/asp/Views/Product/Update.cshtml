@@ -1,0 +1,27 @@
+﻿@model Product
+
+<form method="post">
+    <div>
+        <div class="mt-2">
+            <label asp-for="Count">Количество</label>
+            <input asp-for="Count" class="form-control" />
+            <span asp-validation-for="Count" class="text-danger"></span>
+        </div>
+        <div class="mt-2">
+            <label asp-for="Name">Название</label>
+            <input asp-for="Name" class="form-control" />
+            <span asp-validation-for="Name" class="text-danger"></span>
+        </div>
+        <div class="mt-2">
+            <label asp-for="Price">Цена</label>
+            <input asp-for="Price" class="form-control" />
+            <span asp-validation-for="Price" class="text-danger"></span>
+        </div>
+        <div class="mt-2">
+            <label asp-for="Catagory">Категория</label>
+            <input asp-for="Catagory" class="form-control" />
+            <span asp-validation-for="Catagory" class="text-danger"></span>
+        </div>
+        <button type="submit" class="btn btn-primary mt-3">Изменить</button>
+    </div>
+</form>
